@@ -1,0 +1,13 @@
+{
+  "name": "due-date-calculator",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
