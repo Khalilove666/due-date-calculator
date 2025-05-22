@@ -9,7 +9,7 @@ const NUM_OF_NON_BUSINESS_DAYS = 2;
 /**
  * Calculates the due date based on a submission time and turnaround time in hours.
  *
- * @param submitDateFormattedAsISO8601 - ISO8601-formatted UTC date string
+ * @param submitDateAsISO8601 - ISO8601-formatted UTC date string
  * @param turnaroundTimeInHours - Time required to complete the task, in work hours
  * @returns Due date as an ISO8601 string
  * @throws Will throw an error if the date is invalid, not in working hours, or if the turnaround time is not positive

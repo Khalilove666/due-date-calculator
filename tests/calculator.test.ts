@@ -1,4 +1,4 @@
-import { describe, expect, it, test } from "vitest";
+import { describe, expect, it } from "vitest";
 import {
   calculateDueDate,
   validateSubmitDate,
@@ -68,7 +68,7 @@ describe("validateSubmitDate", () => {
     );
   });
 
-  test('should throw "Invalid submit date/time." for Weekend', () => {
+  it('should throw "Invalid submit date/time." for Weekend', () => {
     expect(() => validateSubmitDate("2025-05-25T10:00:00Z")).toThrow(
       "Invalid submit date/time."
     );
